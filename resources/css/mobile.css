@@ -1,0 +1,66 @@
+header {
+    background: #FFFFFF;
+  }
+
+  nav#nav {
+    background: linear-gradient(to bottom, #a17fdd, #fff1b8);
+  }
+
+  nav#nav>#nav-upper-shortcut {
+    background: #C0DBFF;
+  }
+
+  nav#nav>#nav-upper-shortcut>.dropdown>a {
+    color: #FFFFFF;
+  }
+
+  nav#nav > #nav-upper #noteDropdownContainer a {
+    color: #C0DBFF;
+  }
+
+  nav#nav > #nav-upper #userDropdownContainer a {
+    color: #fba893;
+  }
+
+  header>#header-area>#header-bar-link,
+  header>#header-area>#header-search-link,
+  header > #header-search-bar #header-close-search-btn,
+  header > #header-search-bar #header-search-input,
+  header > #header-search-bar #header-search-btn {
+    color: #a17fdd;
+  }
+
+  nav#nav>#nav-upper>#header-close-bar-link {
+    color: #C0DBFF;
+  }
+
+  nav#nav > .nav-menu-area hr {
+    border-bottom: 1px solid #C0DBFF;
+  }
+
+  header>#header-area>a>h1 {
+    background: url(http://upload.tgd.kr/20201130/459179e0c1a9361aaa0b103871d7fbde.png) no-repeat;
+    background-size: contain;
+  }
+
+  #article-list #article-list-category>a {
+    color: #feae92;
+  }
+
+  #article-list>.article-list-row>.item>.list-header>span {
+    background: linear-gradient(to bottom, #a17fdd, #feae92)
+    /* background-color: #a17fdd; */
+  }
+
+  #article-list>.article-list-row>.item>.list-header.v0>span {
+    background: none;
+  }
+
+  .btn-primary {
+    background: #efc839 !important;
+    border: none !important;
+  }
+
+  footer a {
+    color: #000;
+  }
