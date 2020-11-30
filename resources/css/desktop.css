@@ -31,7 +31,7 @@ header .row>div:nth-child(1)>a {
   display: block;
   width: 145px;
   height: 50px;
-  background: url(https://cdn.discordapp.com/attachments/753607096687263774/778646444596920370/1.png) no-repeat;
+  background: url(https://pongdongboo-site-sm-part.github.io/ponggether/resources/images/logo.png) no-repeat;
   background-size: auto 50px;
 }
 
@@ -234,7 +234,7 @@ input[type=checkbox],
 input[type=radio],
 .opt
  {
- cursor: url(http://upload.tgd.kr/20201130/030f3ceb853f645db9fb281eb242d2d4.png) 0 0, auto !important;
+ cursor: url(https://pongdongboo-site-sm-part.github.io/ponggether/resources/images/whale_cursor.cur) 0 0, auto !important;
 }
 
 
@@ -251,7 +251,7 @@ input[type=radio],
 .fr-view img,
 .pull-left,
 a {
- cursor: url(http://upload.tgd.kr/20201130/030f3ceb853f645db9fb281eb242d2d4.png) 0 0, auto !important;
+ cursor: url(https://pongdongboo-site-sm-part.github.io/ponggether/resources/images/whale_cursor.cur) 0 0, auto !important;
 }
 
 
@@ -263,7 +263,7 @@ span#viewers,
 .fr-box.fr-basic.fr-element,
 input[type='text']
  {
- cursor: url(http://upload.tgd.kr/20201130/030f3ceb853f645db9fb281eb242d2d4.png) 0 0, auto !important;
+ cursor: url(https://pongdongboo-site-sm-part.github.io/ponggether/resources/images/whale_cursor.cur) 0 0, auto !important;
 }
 
 /* footer */
