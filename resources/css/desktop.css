@@ -10,7 +10,7 @@ letter-spacing: -0.05em !important;
   background-image: url(https://pongdongboo-site-sm-part.github.io/ponggether/resources/images/background.png);
   background-repeat: space;
   background-size: 300px;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
 }
 
 /* 전체 쉐도우 */
