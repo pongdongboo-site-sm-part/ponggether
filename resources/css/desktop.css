@@ -141,6 +141,7 @@ header #header-bar .fa {
 
 #board-info #board-info-bottom a {
   color: #feae92;
+  font-size: inherit;
 }
 
 /* 좌측메뉴 숏컷링크 글씨 색상 */
@@ -157,6 +158,9 @@ header #header-bar .fa {
 }
 
 /* 게시글 관련부분 */
+#article-list>.article-list-row>.item>.list-title {
+  font-size: 15px;
+}
 
 #article-list>.article-list-row>.item>.list-title>.list-writer>span {
   width: 120px !important;
@@ -169,6 +173,7 @@ header #header-bar .fa {
 
 #article-list #article-list-category>a {
   background: white;
+  font-size: inherit;
 }
 
 #article-list>.article-list-row>.item>.list-header>span {
