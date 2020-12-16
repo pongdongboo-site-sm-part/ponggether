@@ -139,7 +139,7 @@ header #header-bar .fa {
 }
 
 #board-info h1 {
-  padding-left: 2em;
+  padding-left: 3em;
 }
 
 /* 스트리머 게시판 상단 정보 프로필 이미지 위치 */
@@ -151,7 +151,7 @@ header #header-bar .fa {
 }
 
 #board-info #board-info-bottom {
-  padding-left: 3.5em;
+  padding-left: 4em;
 }
 
 /* 스트리머 게시판 상단 정보 글씨색상 */
