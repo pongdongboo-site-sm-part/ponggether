@@ -158,16 +158,8 @@ header #header-bar .fa {
 }
 
 /* 게시글 관련부분 */
-#article-list {
-  line-height: 1.2;
-}
-
 #article-list>.article-list-row>.item>.list-title {
-  font-size: 21px;
-}
-
-#article-list>.article-list-row>.item>.list-title>.list-category>span {
-  max-width: 120px !important;
+  font-size: 16px;
 }
 
 #article-list>.article-list-row>.item>.list-title>.list-writer>span {
