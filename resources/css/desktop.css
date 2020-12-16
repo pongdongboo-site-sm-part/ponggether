@@ -1,4 +1,41 @@
 @import url(https://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+/* @font-face {
+  font-family: 'Cafe24Syongsyong';
+  src: url('https://pongdongboo-site-sm-part.github.io/ponggether/resources/font/Cafe24Syongsyong.eot');
+  src: url('https://pongdongboo-site-sm-part.github.io/ponggether/resources/font/Cafe24Syongsyong.eot?#iefix') format('embedded-opentype'),
+       url('https://pongdongboo-site-sm-part.github.io/ponggether/resources/font/Cafe24Syongsyong.svg#Cafe24Syongsyong') format('svg'),
+       url('https://pongdongboo-site-sm-part.github.io/ponggether/resources/font/Cafe24Syongsyong.ttf') format('truetype'),
+       url('https://pongdongboo-site-sm-part.github.io/ponggether/resources/font/Cafe24Syongsyong.woff') format('woff'),
+       url('https://pongdongboo-site-sm-part.github.io/ponggether/resources/font/Cafe24Syongsyong.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Cafe24Ssukssuk';
+  src: url('https://pongdongboo-site-sm-part.github.io/ponggether/resources/font/Cafe24Ssukssuk.eot');
+  src: url('https://pongdongboo-site-sm-part.github.io/ponggether/resources/font/Cafe24Ssukssuk.eot?#iefix') format('embedded-opentype'),
+       url('https://pongdongboo-site-sm-part.github.io/ponggether/resources/font/Cafe24Ssukssuk.svg#Cafe24Ssukssuk') format('svg'),
+       url('https://pongdongboo-site-sm-part.github.io/ponggether/resources/font/Cafe24Ssukssuk.ttf') format('truetype'),
+       url('https://pongdongboo-site-sm-part.github.io/ponggether/resources/font/Cafe24Ssukssuk.woff') format('woff'),
+       url('https://pongdongboo-site-sm-part.github.io/ponggether/resources/font/Cafe24Ssukssuk.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+} */
+
+@font-face {
+  font-family: 'Cafe24Dongdong';
+  src: url('https://pongdongboo-site-sm-part.github.io/ponggether/resources/font/Cafe24Dongdong.eot');
+  src: url('https://pongdongboo-site-sm-part.github.io/ponggether/resources/font/Cafe24Dongdong.eot?#iefix') format('embedded-opentype'),
+       url('https://pongdongboo-site-sm-part.github.io/ponggether/resources/font/Cafe24Dongdong.svg#Cafe24Dongdong') format('svg'),
+       url('https://pongdongboo-site-sm-part.github.io/ponggether/resources/font/Cafe24Dongdong.ttf') format('truetype'),
+       url('https://pongdongboo-site-sm-part.github.io/ponggether/resources/font/Cafe24Dongdong.woff') format('woff'),
+       url('https://pongdongboo-site-sm-part.github.io/ponggether/resources/font/Cafe24Dongdong.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
 html {
   background: linear-gradient(to bottom, #a17fdd, #fff1b8);
   height: auto !important;
@@ -6,7 +43,7 @@ html {
 body {
 letter-spacing: -0.05em !important;
   background: transparent;
-  font-family: 'Nanum Gothic', sans-serif;
+  font-family: 'Cafe24Dongdong', 'Nanum Gothic', sans-serif;
   background-image: url(https://pongdongboo-site-sm-part.github.io/ponggether/resources/images/background.png);
   background-repeat: space;
   background-size: 300px;
