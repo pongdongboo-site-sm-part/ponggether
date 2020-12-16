@@ -48,6 +48,7 @@ letter-spacing: -0.05em !important;
   background-repeat: space;
   background-size: 300px;
   /* background-attachment: fixed; */
+  font-size: 16px;
 }
 
 /* 전체 쉐도우 */
@@ -135,6 +136,22 @@ header #header-bar #header-top-notice strong.notice-badge {
 
 header #header-bar .fa {
   color: #e2c0ff;
+}
+
+#board-info h1 {
+  padding-left: 2em;
+}
+
+/* 스트리머 게시판 상단 정보 프로필 이미지 위치 */
+
+#board-info #board-info-profile-img {
+  position: absolute;
+  left: 2em;
+  top: 1em;
+}
+
+#board-info #board-info-bottom {
+  padding-left: 3.5em;
 }
 
 /* 스트리머 게시판 상단 정보 글씨색상 */
