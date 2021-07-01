@@ -1,4 +1,10 @@
 @import url(//fonts.googleapis.com/earlyaccess/hanna.css);
+@font-face {
+  font-family: 'GyeonggiBatang';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/GyeonggiBatang.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 
 html {
   background: linear-gradient(to top, #FFFFFF, #905073);
@@ -8,17 +14,17 @@ html {
 body {
   letter-spacing: -0.05em !important;
   background: transparent;
-  font-family: 'Hanna', 'Nanum Gothic', sans-serif;
-  background-image: url('https://pongdongboo-site-sm-part.github.io/ponggether/resources/images/heart_with_wing_resize.png');
+  font-family: 'GyeonggiBatang', 'Hanna', 'Nanum Gothic', sans-serif;
+  /* background-image: url('https://pongdongboo-site-sm-part.github.io/ponggether/resources/images/heart_with_wing_resize.png');
   -webkit-animation: snow 26s linear infinite;
   -moz-animation: snow 26s linear infinite;
   -ms-animation: snow 26s linear infinite;
-  animation: snow 26s linear infinite;
+  animation: snow 26s linear infinite; */
   /* background-attachment: fixed; */
   font-size: 15px;
 }
 
-@keyframes snow {
+/* @keyframes snow {
   0% {
       background-position: 0px 0px;
   }
@@ -56,7 +62,7 @@ body {
   100% {
       background-position: 1152px 1152px;
   }
-}
+} */
 
 /* 전체 쉐도우 */
 
