@@ -1,4 +1,10 @@
-@import url(//fonts.googleapis.com/earlyaccess/hanna.css);
+/* @import url(//fonts.googleapis.com/earlyaccess/hanna.css); */
+@font-face {
+  font-family: 'RIDIBatang';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/RIDIBatang.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 
 html {
   background: linear-gradient(to top, #FFFFFF, #905073);
@@ -8,7 +14,7 @@ html {
 body {
   letter-spacing: -0.05em !important;
   background: transparent;
-  font-family: 'Hanna', 'Nanum Gothic', sans-serif;
+  font-family: 'RIDIBatang', 'Hanna', 'Nanum Gothic', sans-serif;
   background-image: url('https://pongdongboo-site-sm-part.github.io/ponggether/resources/images/heart_with_wing_resize.png');
   -webkit-animation: snow 26s linear infinite;
   -moz-animation: snow 26s linear infinite;
