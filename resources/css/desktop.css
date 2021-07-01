@@ -161,6 +161,10 @@ header #header-bar .fa {
   padding-left: 3em;
 }
 
+#board-info h1>a {
+  font-weight: 900;
+}
+
 /* 스트리머 게시판 상단 정보 프로필 이미지 위치 */
 
 #board-info #board-info-profile-img {
@@ -409,6 +413,7 @@ span.a-badge i.fa.fa-info-circle {
 
 .dropdown-menu>li>a {
   transition: 0.1s;
+  font-weight: 900;
 }
 
 .dropdown-menu>li>a:hover {
@@ -485,9 +490,9 @@ span#viewers,
 #article-list #boardSearchForm .form-control,
 .fr-view,
 .fr-box.fr-basic.fr-element,
-input[type='text']
- {
- cursor: url(https://pongdongboo-site-sm-part.github.io/ponggether/resources/images/cute_link.cur) 0 0, auto !important;
+input[type='text'] {
+  cursor: url(https://pongdongboo-site-sm-part.github.io/ponggether/resources/images/cute_link.cur) 0 0, auto !important;
+  font-weight: 900;
 }
 
 /* footer */
