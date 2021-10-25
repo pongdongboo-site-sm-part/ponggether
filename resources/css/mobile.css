@@ -1,66 +1,149 @@
+@import url(//fonts.googleapis.com/earlyaccess/hanna.css);
+@font-face {
+  font-family: 'GyeonggiBatang';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/GyeonggiBatang.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  background: linear-gradient(to top, #FFFFFF, #905073);
+  height: auto !important;
+}
+
+body {
+  letter-spacing: -0.05em !important;
+  background: transparent;
+  font-family: 'GyeonggiBatang', 'Hanna', 'Nanum Gothic', sans-serif;
+  /* background-image: url('https://pongdongboo-site-sm-part.github.io/ponggether/resources/images/heart_with_wing_resize.png');
+  -webkit-animation: snow 26s linear infinite;
+  -moz-animation: snow 26s linear infinite;
+  -ms-animation: snow 26s linear infinite;
+  animation: snow 26s linear infinite; */
+  /* background-attachment: fixed; */
+}
+
 header {
-    background: #FFFFFF;
-  }
+  background: #FFFFFF;
+}
 
-  nav#nav {
-    background: linear-gradient(to bottom, #a17fdd, #fff1b8);
-  }
+nav#nav {
+  background: linear-gradient(to bottom, #a17fdd, #fff1b8);
+}
 
-  nav#nav>#nav-upper-shortcut {
-    background: #C0DBFF;
-  }
+nav#nav>#nav-upper-shortcut {
+  background: #C0DBFF;
+}
 
-  nav#nav>#nav-upper-shortcut>.dropdown>a {
-    color: #FFFFFF;
-  }
+nav#nav>#nav-upper-shortcut>.dropdown>a {
+  color: #FFFFFF;
+}
 
-  nav#nav > #nav-upper #noteDropdownContainer a {
-    color: #C0DBFF;
-  }
+nav#nav>.nav-menu-area a {
+  color: #FFFFFF;
+}
 
-  nav#nav > #nav-upper #userDropdownContainer a {
-    color: #fba893;
-  }
+nav#nav > #nav-upper #noteDropdownContainer a {
+  color: #C0DBFF;
+}
 
-  header>#header-area>#header-bar-link,
-  header>#header-area>#header-search-link,
-  header > #header-search-bar #header-close-search-btn,
-  header > #header-search-bar #header-search-input,
-  header > #header-search-bar #header-search-btn {
-    color: #a17fdd;
-  }
+nav#nav > #nav-upper #userDropdownContainer a {
+  color: #fba893;
+}
 
-  nav#nav>#nav-upper>#header-close-bar-link {
-    color: #C0DBFF;
-  }
+header>#header-area>#header-bar-link,
+header>#header-area>#header-search-link,
+header > #header-search-bar #header-close-search-btn,
+header > #header-search-bar #header-search-input,
+header > #header-search-bar #header-search-btn {
+  color: #a17fdd;
+}
 
-  nav#nav > .nav-menu-area hr {
-    border-bottom: 1px solid #C0DBFF;
-  }
+nav#nav>#nav-upper>#header-close-bar-link {
+  color: #C0DBFF;
+}
 
-  header>#header-area>a>h1 {
-    background: url(https://pongdongboo-site-sm-part.github.io/ponggether/resources/images/logo.png) no-repeat;
-    background-size: contain;
-  }
+nav#nav > .nav-menu-area hr {
+  border-bottom: 1px solid #C0DBFF;
+}
 
-  #article-list #article-list-category>a {
-    color: #feae92;
-  }
+header>#header-area>a>h1 {
+  background: url(https://pongdongboo-site-sm-part.github.io/ponggether/resources/images/logo.png) no-repeat;
+  background-size: contain;
+}
 
-  #article-list>.article-list-row>.item>.list-header>span {
-    background: linear-gradient(to bottom, #a17fdd, #feae92)
-    /* background-color: #a17fdd; */
-  }
+#article-list #article-list-category>a {
+  color: #feae92;
+}
 
-  #article-list>.article-list-row>.item>.list-header.v0>span {
-    background: none;
-  }
+#article-list>.article-list-row>.item>.list-header>span {
+  background: linear-gradient(to bottom, #a17fdd, #feae92)
+  /* background-color: #a17fdd; */
+}
 
-  .btn-primary {
-    background: #efc839 !important;
-    border: none !important;
-  }
+#article-list>.article-list-row>.item>.list-header.v0>span {
+  background: none;
+}
 
-  footer a {
-    color: #000;
-  }
+.btn-primary {
+  background: #efc839 !important;
+  border: none !important;
+}
+
+footer a {
+  color: #000;
+}
+
+.fa.fa-star {
+  color: #EFC839;
+}
+
+.fa.fa-caret-down {
+  color: #C0DBFF;
+}
+
+.dropdown-menu {
+  border: 1px solid #C0DBFF !important;
+  box-shadow: 0 6px 12px #C0DBFF !important;
+}
+
+.dropdown-menu>li>a {
+  color: #C0DBFF;
+}
+
+#article-list {
+  background-image: url(https://pongdongboo-site-sm-part.github.io/ponggether/resources/images/article_list_background.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom;
+}
+
+#article-list .article-list-row {
+  background: #FFFFFFBB;
+}
+
+.pagination-area {
+  background: #FFFFFFBB;
+}
+
+#article-list-menu {
+  background: #FFFFFFBB;
+}
+
+#movetotop {
+  display: inline-block;
+  opacity: 1;
+  background: url(https://pongdongboo-site-sm-part.github.io/ponggether/resources/images/top_btn.png);
+  width: 100px;
+  height: 100px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#movetotop img {
+  display:none;
+}
+
+footer {
+  background: #FFFFFFBB;
+}
