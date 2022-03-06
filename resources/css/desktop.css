@@ -184,14 +184,12 @@ header #header-bar .fa {
 }
 
 #board-info #viewers-area #viewers:before {
-  content: "밍퐁의 파도에서 ";
   color: #6cadc7;
   cursor: text;
   font-weight: normal;
 }
 
 #board-info #viewers-area #viewers:after {
-  content: " 명 서핑 중 ";
   color: #6cadc7;
   cursor: text;
   font-weight: normal;
@@ -223,6 +221,14 @@ header #header-bar .fa {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: bottom;
+}
+
+#article-list>.article-list-row.notice {
+  background-color: #905073;
+}
+
+#article-list>.article-list-row.notice>.item>.list-title>a {
+  color: #FFFFFF !important;
 }
 
 #article-list>.article-list-row>.item>.list-title {
@@ -274,6 +280,10 @@ header #header-bar .fa {
   }
 }
 
+#article-list>.article-list-row.notice {
+  background-color: #905073;
+}
+
 #article-list>.article-list-row>.item>.list-header.v0>span {
   background: none;
 }
@@ -282,8 +292,12 @@ header #header-bar .fa {
   color: #a17fdd;
 }
 
+#article-list>.article-list-row.notice>.item>.list-title>.list-writer.logged>span {
+  color: #FFFFFF;
+}
+
 #article-list>.article-list-row>.item>.list-title>.list-writer.logged>span {
-  color: #ABD2E3;
+  color: #905073;
 }
 
 .pagination>.active>a,
@@ -447,7 +461,7 @@ span.a-badge i.fa.fa-info-circle {
 #movetotop {
   display: inline-block;
   opacity: 1;
-  background: url(https://pongdongboo-site-sm-part.github.io/ponggether/resources/images/top_btn.png);
+  background: url(https://pongdongboo-site-sm-part.github.io/ponggether/resources/images/top_btn_new.png);
   width: 150px;
   height: 150px;
   background-size: contain;
@@ -498,4 +512,22 @@ input[type='text'] {
 /* footer */
 footer a {
   color: #000 !important;
+}
+
+/* list like icon */
+small.favo i.fa.fa-heart {
+  animation: heartbeat 1s infinite;
+}
+@keyframes heartbeat {
+  0% {transform: scale(1);}
+  30% {transform: scale(1.25);}
+  42% {transform: scale(0.9);}
+  60% {transform: scale(1.15);}
+  85% {transform: scale(0.95);}
+  100% {transform: scale(1);}
+}
+
+/* 글 상세 페이지 비추천 제거 */
+button.btn.btn-outline-primary.vote-btn[data-type=down] {
+  display: none;
 }
