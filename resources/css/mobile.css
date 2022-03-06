@@ -15,12 +15,6 @@ body {
   letter-spacing: -0.05em !important;
   background: transparent;
   font-family: 'GyeonggiBatang', 'Hanna', 'Nanum Gothic', sans-serif;
-  /* background-image: url('https://pongdongboo-site-sm-part.github.io/ponggether/resources/images/heart_with_wing_resize.png');
-  -webkit-animation: snow 26s linear infinite;
-  -moz-animation: snow 26s linear infinite;
-  -ms-animation: snow 26s linear infinite;
-  animation: snow 26s linear infinite; */
-  /* background-attachment: fixed; */
 }
 
 header {
