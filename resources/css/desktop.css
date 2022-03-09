@@ -231,6 +231,11 @@ header #header-bar .fa {
   color: #FFFFFF !important;
 }
 
+#article-list>.article-list-row.notice>.item>.list-time {
+  color: #FFFFFF !important
+}
+
+
 #article-list>.article-list-row>.item>.list-title {
   font-size: 15px;
 }
