@@ -77,7 +77,7 @@ header #header-bar>.row,
 /* 로고밑 NAV bar */
 
 header #header-bar>.row {
-  border-top: 4px solid #C0DBFF;
+  border-top: 4px solid #748CC1;
   border-right: none;
   border-bottom: none;
 }
@@ -88,7 +88,7 @@ header .row>div:nth-child(1)>a {
   display: block;
   width: 145px;
   height: 50px;
-  background: url(https://pongdongboo-site-sm-part.github.io/ponggether/resources/images/logo.png) no-repeat;
+  background: url(https://pongdongboo-site-sm-part.github.io/ponggether/resources/images/logo_new3.png) no-repeat;
   background-size: auto 50px;
 }
 
@@ -107,7 +107,7 @@ header #right-search-form>input[type='text'] {
 /* 트게더 전체메뉴 / 유용한링크 / 트위치 스케쥴 */
 
 #main .menu-wrapper>.header {
-  background: #C0DBFF;
+  background: #748CC1;
 }
 
 .fa-navicon:before,
@@ -117,7 +117,7 @@ header #right-search-form>input[type='text'] {
 }
 
 .fa-square:before {
-  color: #C0DBFF;
+  color: #748CC1;
 }
 
 header #header-bar>.row,
@@ -142,19 +142,19 @@ header #header-bar>.row,
 /* 헤더 검색 버튼 */
 
 header #right-search-form>#right-search-btn {
-  color: #C0DBFF;
+  color: #748CC1;
 }
 
 /* 헤더 [광고]배경색 */
 
 header #header-bar #header-top-notice strong.notice-badge {
-  background: #C0DBFF;
+  background: #748CC1;
 }
 
 /* fa색상 */
 
 header #header-bar .fa {
-  color: #C0DBFF;
+  color: #748CC1;
 }
 
 #board-info h1 {
@@ -184,44 +184,46 @@ header #header-bar .fa {
 }
 
 #board-info #viewers-area #viewers:before {
-  color: #6cadc7;
+  color: #748CC1;
   cursor: text;
-  font-weight: normal;
+  font-weight: bolder;
+  content: "파도 속 "
 }
 
 #board-info #viewers-area #viewers:after {
-  color: #6cadc7;
+  color: #748CC1;
   cursor: text;
-  font-weight: normal;
+  font-weight: bolder;
+  content: " 마리 문어"
 }
 
 /* 스트리머 게시판 상단 정보 글씨색상 */
 
 #board-info #board-info-bottom a {
-  color: #C0DBFF;
+  color: #748CC1;
   font-size: inherit;
 }
 
 /* 좌측메뉴 숏컷링크 글씨 색상 */
 
 #main .menu-wrapper>a>em {
-  color: #C0DBFF;
+  color: #748CC1;
 }
 
 /* 좌측메뉴 메뉴사이의 공간 색상 */
 
 #main .menu-wrapper .spacer {
-  background: #C0DBFF;
+  background: #748CC1;
   height: 0.15em;
 }
 
 /* 게시글 관련부분 */
-#article-list {
+/* #article-list {
   background-image: url(https://pongdongboo-site-sm-part.github.io/ponggether/resources/images/article_list_background.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: bottom;
-}
+} */
 
 #article-list>.article-list-row.notice {
   background-color: #905073;
@@ -237,7 +239,7 @@ header #header-bar .fa {
 
 
 #article-list>.article-list-row>.item>.list-title {
-  font-size: 15px;
+  font-size: 13.5px;
 }
 
 #article-list>.article-list-row>.item>.list-title>.list-writer>span {
@@ -257,6 +259,10 @@ header #header-bar .fa {
 #article-list>.article-list-row>.item>.list-header>span {
   background: linear-gradient(to bottom, #a17fdd, #6cadc7);
   /* background-color: #a17fdd; */
+}
+
+#article-list>.article-list-row>.item>.list-header>strong {
+  color: #FFFFFF;
 }
 
 #article-list>.article-list-row:hover {
@@ -311,24 +317,24 @@ header #header-bar .fa {
 .pagination>.active>span,
 .pagination>.active>span:focus,
 .pagination>.active>span:hover {
-  background-color: #a17fdd;
-  border-color: #a17fdd;
+  background-color: #748CC1;
+  border-color: #748CC1;
 }
 
 .pagination>li>a:focus,
 .pagination>li>a:hover,
 .pagination>li>span:focus,
 .pagination>li>span:hover {
-  color: #a17fdd;
+  color: #748CC1;
 }
 
 .pagination>li>a,
 .pagination>li>span {
-  color: #a17fdd;
+  color: #748CC1;
 }
 
 #article-content-wrapper>.header {
-  border-top: 2px solid #C0DBFF;
+  border-top: 2px solid #748CC1;
 }
 
 #article-reply-area #reply-real-area .reply>.reply-header>.reply-writer.logged,
@@ -358,6 +364,7 @@ a {
 
 span.a-badge i.fa.fa-info-circle {
   color: #6cadc7;
+  display: none;
 }
 
 /* footer */
@@ -379,13 +386,13 @@ span.a-badge i.fa.fa-info-circle {
 }
 
 .btn-primary {
-  background: #ABD2E3 !important;
+  background: #748CC1 !important;
   border: none !important;
 }
 
 #article-list #article-list-menu>.btn.best {
-  color: #ABD2E3 !important;
-  border-color: #ABD2E3 !important;
+  color: #748CC1 !important;
+  border-color: #748CC1 !important;
 }
 
 .btn-outline-primary {
@@ -401,14 +408,14 @@ span.a-badge i.fa.fa-info-circle {
 }
 
 .btn-outline-success {
-  color: #C0DBFF;
-  border-color: #C0DBFF;
+  color: #748CC1;
+  border-color: #748CC1;
 }
 
 .btn-outline-success:hover {
   color: #ffffff;
   border-color: #ffffff;
-  background-color: #C0DBFF;
+  background-color: #748CC1;
 }
 
 /* 광고 라인 드롭다운 시작 */
@@ -416,8 +423,8 @@ span.a-badge i.fa.fa-info-circle {
   opacity: unset;
   transform: unset;
   border: 2px dashed #ffffff;
-  border-top: 1px dashed #C0DBFF !important;
-  border: 1px dashed #C0DBFF;
+  border-top: 1px dashed #748CC1 !important;
+  border: 1px dashed #748CC1;
   box-shadow: 0 0 0 4px #fff;
 }
 
@@ -442,7 +449,7 @@ span.a-badge i.fa.fa-info-circle {
 }
 
 #latestDropdownMenu>li>a>span.delrow, #favoriteDropdownMenu>li>a>span.delrow {
-  color: #C0DBFF;
+  color: #748CC1;
 }
 
 #latestDropdownMenu>li>a>span.delrow:hover, #favoriteDropdownMenu>li>a>span.delrow:hover {
@@ -450,11 +457,11 @@ span.a-badge i.fa.fa-info-circle {
 }
 
 #favoriteDropdownMenu>li>a>span.label.label-default {
-  background-color: #C0DBFF;
+  background-color: #748CC1;
 }
 
 .dropdown-menu .divider {
-  background-color: #C0DBFF;
+  background-color: #748CC1;
   height: 2px;
   margin: 3px 0;
 }
@@ -535,4 +542,34 @@ small.favo i.fa.fa-heart {
 /* 글 상세 페이지 비추천 제거 */
 button.btn.btn-outline-primary.vote-btn[data-type=down] {
   display: none;
+}
+
+#article-list>.article-list-row>.item>.list-title>.list-writer>span {
+  font-size: 100% !important;
+}
+
+.btn.square {
+  font-size: 13.5px;
+  font-weight: bolder;
+}
+
+#board-info #viewers-area {
+  color: #2c3957;
+  font-weight: bolder;
+}
+
+#board-info #score-area {
+  color: #748CC1;
+  font-weight: bolder;
+}
+
+i.fa.fa-user {
+  width: 14px;
+  color: transparent;
+  background-image: url(https://pongdongboo-site-sm-part.github.io/ponggether/resources/images/visitor.png);
+  background-size: cover;
+}
+
+#article-list #boardSearchForm .form-control {
+  height: 33px;
 }
