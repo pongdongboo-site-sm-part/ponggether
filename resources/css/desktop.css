@@ -246,6 +246,11 @@ header #header-bar .fa {
   width: 120px !important;
 }
 
+#article-list>.article-list-row>.item>.list-time {
+  font-size: 13.5px;
+  font-weight: bolder;
+}
+
 #article-list #article-list-category {
   border-top: 2px solid #6cadc7;
   background: white;
