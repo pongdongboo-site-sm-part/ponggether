@@ -180,7 +180,7 @@ header #header-bar .fa {
 } */
 
 #article-list>.article-list-row.notice {
-  background-color: #905073;
+  background-color: #A16D8A;
 }
 
 #article-list>.article-list-row.notice>.item>.list-title>a {
@@ -248,10 +248,6 @@ header #header-bar .fa {
       opacity: 0.5;
       box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 8px 8px #905073, 0 0 0 6px rgba(255, 255, 255, 0.5);
   }
-}
-
-#article-list>.article-list-row.notice {
-  background-color: #905073;
 }
 
 #article-list>.article-list-row>.item>.list-header.v0>span {
