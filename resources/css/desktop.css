@@ -15,55 +15,9 @@ body {
   letter-spacing: -0.05em !important;
   background: transparent;
   font-family: 'GyeonggiBatang', 'Hanna', 'Nanum Gothic', sans-serif;
-  /* background-image: url('https://pongdongboo-site-sm-part.github.io/ponggether/resources/images/heart_with_wing_resize.png');
-  -webkit-animation: snow 26s linear infinite;
-  -moz-animation: snow 26s linear infinite;
-  -ms-animation: snow 26s linear infinite;
-  animation: snow 26s linear infinite; */
-  /* background-attachment: fixed; */
   font-size: 14px;
   font-weight: 900;
 }
-
-/* @keyframes snow {
-  0% {
-      background-position: 0px 0px;
-  }
-
-  100% {
-      background-position: 1152px 1152px;
-  }
-}
-
-@-moz-keyframes snow {
-  0% {
-      background-position: 0px 0px;
-  }
-
-  100% {
-      background-position: 1152px 1152px;
-  }
-}
-
-@-webkit-keyframes snow {
-  0% {
-      background-position: 0px 0px;
-  }
-
-  100% {
-      background-position: 1152px 1152px;
-  }
-}
-
-@-ms-keyframes snow {
-  0% {
-      background-position: 0px 0px;
-  }
-
-  100% {
-      background-position: 1152px 1152px;
-  }
-} */
 
 /* 전체 쉐도우 */
 
@@ -187,14 +141,14 @@ header #header-bar .fa {
   color: #748CC1;
   cursor: text;
   font-weight: bolder;
-  content: "파도 속 "
+  content: "파도 속 문어 "
 }
 
 #board-info #viewers-area #viewers:after {
   color: #748CC1;
   cursor: text;
   font-weight: bolder;
-  content: " 마리 문어"
+  content: " 마리"
 }
 
 /* 스트리머 게시판 상단 정보 글씨색상 */
