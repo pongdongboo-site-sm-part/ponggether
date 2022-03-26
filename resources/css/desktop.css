@@ -183,6 +183,10 @@ header #header-bar .fa {
   background-color: #A16D8A;
 }
 
+#article-list>.article-list-row>.item>.list-title>.list-category>span {
+  font-size: 13.5px;
+}
+
 #article-list>.article-list-row.notice>.item>.list-title>a {
   color: #FFFFFF !important;
 }
@@ -222,6 +226,7 @@ header #header-bar .fa {
 
 #article-list>.article-list-row>.item>.list-header>strong {
   color: #FFFFFF;
+  font-size: 13.5px;
 }
 
 #article-list>.article-list-row:hover {
